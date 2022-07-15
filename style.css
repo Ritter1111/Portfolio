@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #4C3A51;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
@@ -7,13 +7,17 @@
   body {
     margin: 60px auto;
   }
-  
+
   h1,
   h2,
   h3 {
     text-align: center;
     margin: 0;
-    padding: 12px;
+    padding: 1px;
+    padding-top: 50px;
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
   }
   
   h1 {
@@ -86,4 +90,41 @@
   .email-link:hover {
     text-decoration: underline;
   }
-  
+
+.button {
+    background: transparent;
+    border:none;
+    color: #000;
+    font-weight: 250;
+    margin: 0 auto;
+    padding-left: 600px;
+}
+
+.button, 
+.button:active, 
+.button:focus {
+    outline: none;
+}
+
+.myprojects{
+    padding: 25px;
+    font-weight: 35px;
+}
+ 
+div.main {
+    font-size: calc(16px + 1.2vw);
+    position: relative;
+    animation: showLeft 1s;
+    z-index: 1;
+    
+    }
+    
+    @keyframes showLeft {
+    from {left:-100%;}
+    to {left:0;}
+    }
+    
+    @keyframes showRight {
+    from {right:-100%;}
+    to {right:0;}
+    }
