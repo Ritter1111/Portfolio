@@ -170,5 +170,13 @@ div.main {
 
   .mb-4{
     text-align: center;
-    margin-top: 70px;
+  }
+  .about-section h2{
+    font-size: 64px;
+  }
+  .about-section{
+    padding: 55px;
+  }
+  .content-container h3,h2{
+    padding: 0;
   }
