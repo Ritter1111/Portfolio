@@ -244,6 +244,47 @@ footer .contact-box {
     footer .contact-box {
         padding: 30px;
     }
+    
+.mypr {
+    display: flex;
+    padding: 80px;
+    padding-top: 50px;
+}
+
+.onecol {
+    transition: transform .15s;
+}
+
+.onecol:hover {
+    transform: scale(1.05);
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+    transition: transform .5s;
+    border-radius: 10px;
+}
+
+.btn-light {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    border-color: var(--primary-color);
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 60px;
+
+}
+
+.mb-4 {
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 64px;
+}
+
+.about-section {
+    padding-top: 55px;
+}
 }
 
 .open-source {
